@@ -1,0 +1,6 @@
+1. Birinci TypeSCript olmadan sadece JS ile ve SRC -ni secerek qurasdiraq ve kodlari o cur yazaraq yoxlayaq. 6ci qovluga qeder olan hisseni.
+
+2. Ikinci defe TypeSCript ile SRC -ni secerek qurasdiraq ve kodlari o cur yazaraq yoxlayaq. 6ci qovluga qeder olan hisseni.
+
+3. En son TypeSCript ile ancaq SRC olmadan qurasdiraq ve 6ya qeder olan hisse artiq bura aid olmayacaq cunki 6ya qeder olan hisse SRC secildilde olan hissedir.
+Ucuncu defe qurasdirdiqdan sonra artiq yeniden baslarcasina irelileyeceyik.
