@@ -1,0 +1,4 @@
+1. Eger admin panel yaxud telebenin şəxsi kobineti deye bir sehifemiz var deyek onda APP icinde ADMIN yaxud STUDENT adinda qovluq yaratmaq dogru olmaz. Cunki hemin 
+sehifeler hami ucun el catan olacaq.. URL yerinde /admin yaxud /studen yazdiqda admin panele yaxud şəxsi kabinetə her kesin daxil ola bilmesi dogru deyildir. 
+
+2. ADMIN adinda qovluq yaradaraq onun icinde de PAGE.JS faylini yaratdiqda onda URL yerinde bu sehifeye ADMIN yazaraq daxil olmaq olacaqdir. Nece edek onda ? 

@@ -1,0 +1,4 @@
+1. Next js -de A ve LINK deyilen tag-ler vardir hansi ki, A tag-inden istifade ederek sehifeler arasi kecidler etdikde sehife yenilenir LINK tag-inden istifade ederek kecidler etdikde ise
+sehife yenilenmeden bir sehifeden basqa sehifeye kecid etmek olur.
+
+PAGE.JS faylina daxil olaraq birinci A yazaraq sonra LINK yazaraq yoxlayaq.

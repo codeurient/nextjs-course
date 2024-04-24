@@ -1,0 +1,7 @@
+1. URL yerinde ADMIN yaxud istenilen ferqli bir ROUTING adresi yazdiqda hec kim daxil ola bilmesin deye daha dogrusu yaziln URL adresi nezere alinmasin deye 
+yumru morterizeden istifade edilir. () yumru morterize icinde yazilan qovluq adlari URL adresi kimi el catan deyil. Ancaq kodu ele yaziriq ki, meselen eger sayta daxil olunubdursa
+onda meselen DASHBOARD yazdiqda URL yerinde lazim olan sehife acilsin. 
+
+Normal DASHBOARD yazdiqda hecne acmayacaq ancaq kod yazaraq demeliyik ki, sadece qeydiyyatdan kecenler bu adres ile daxil ola biler. 
+
+Hemin yumru morterize bunun ucun istifade edilir. 
