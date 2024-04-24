@@ -1,0 +1,45 @@
+NEXT js bir frameworkdur ve icinde REACT yaziriq. Eger React js yaziriqsa onda niye NEXT yaziriq cunki bezi lazimli xususiyyetleri vardir istifadeye yararli. 
+
+NEXT js React js-in frameworkudur. React js ise JavsScript-in kitabxanasidir. 
+
+NEXT js-e kecid etmeden bu asagida qeyd etdiyimiz terminlere ve menalarina baxaq:
+
+a) CSR (Client-Side Rendering)            - Bu, REACT js-de istifadeciler ucun yazdigimiz adi web sehifelerdir. Ancaq tag-ler JS terefinden yaradildigi ucun indekslenme bas vermir.
+                                            REACT js ile NEXT olmadan SEO etmek mumkundur mu? Beli mumkundur sadece cox elave is gormek lazimdir. Bu ise yorucudur. 
+
+b) SSR (Server-Side Rendering)            - Bu, CSR ile eyni mentiqi yerine yetirir ancaq SEO destekli qaydadir. Kod olaraq CSR ile SSR bir-birine benzeyir. Ancaq CSR kodlari browser-de 
+                                            JS istifade edilerek HTML-e cevrilir. SSR-de ise kodlar Server terefde HTML-e cevrilerek browsere gonderilir.
+
+c) RSC (React Server Components)          - Bu, texnalogiya ise SSR ile demek olar kiç eynidir. SSR de butun komponentler serverde render edilir sonra kliente gonderilir. RSC-de ise bezi 
+                                            komponentler serverde bezileri ise klient terefde render edilir. Butun komponentleri render etmek effektivliyi asagi salir. 
+
+d) SSG (Static Site Generation)           - SSG de komponentlerin server terefinde yaradilmasi ucun istifade edilir ancaq RSC ve SSR-den ferqi ondadir ki, komponent birdefe yardilir ve 
+                                            cache yaddasa hekk edilir. RSC ve SSR-de ise meselen sehifeler arasi kecid etdikde her defe sorgu yeniden gonderilirdi ve komponentler tekrar-tekrar
+                                            render edilirdi. SSG -de SEO desteklidir. SSG metodu adindanda gorulduyu kimi statikdir ve statik web sehifeler yəni mezmunu tez-tez deyismeyen 
+                                            web sehifeler yaratdiqda istifade etdikde meslehete uygundur.
+
+e) ISR (Incremental Static Regeneration)  - SSG ve SSR yaxud SSG ve RSC texnalogiyalarinin qarisigidir. 
+
+
+
+1. sudo npx create-next-app project-name       YAXUD            sudo npx create-next-app ./ --use-npm      Yəni mövcud qovluqda proyekti yarat demiş olduq.
+
+2. Would you like to use TypeScript? › No / Yes                             - Yes
+3. Would you like to use ESLint? › No / Yes                                 - No
+4. Would you like to use Tailwind CSS? … No / Yes                           - YES
+5. Would you like to use `src/` directory? › No / Yes                       - YES
+6. Would you like to use App Router? (recommended) › No / Yes               - YES
+7. Would you like to customize the default import alias (@/*)? › No / Yes   - No            - Sonrada deyismek olur.
+
+
+8. APP qovlugu ROUTING sistemini dogru sekilde qurasdirmaq ucun istifade edilir:  https://domain.com/products,     https://domain.com/products/tv      ve.s   routing-dir.
+Yəni REAT js-de Routing sistemini özümüz yaradırdıq Next js isə hazır routing sistemi ilə gəlir. Next js səhifənin hər hansısa bir yerində dəyişiklik baş verdikdə bütün səhifəni yox sadəcə o 
+deyişiklik baş verən hissəni yeniləyir.
+
+9. APP qovlugunun icinde yaradilan her qovluq avtomatik olaraq sehifemizin routing adı kimi qebul edilir. Ve mutleq hemin qovlugun icinde PAGE.JS adinda fayl yaratmaq lazimdir. 
+Hemin fayl bizim sehifemizdir ve icinde yazdiqlarimiz ekranda eks olunacaq kontentlerimizdir. Qovluga istenilen adi vermek olar ancaq fayl adı PAGE.JS olmalidir.
+
+10. Eger URL budaqlanarsa, Meselen: https://domain.com/products/tv  onda nece ?   Onda PRODUCTS qovlugunun icinde de qovluq yaradaraq adini TV qoymaq olar. Belelikle gosterilen URL-ye daxil olduqda 
+TV sehifesine aid kontent gosterilecek. Ve yene qeyd edim ki, TV qovlugunda da ona mexsus PAGE.JS adindan bir fayl olmalidir. 
+
+11. Bes eger SLUG-lar ferqli olarsa onda ne edeceyik ? SLUG URL yerinde /tv kimi yazilan ferqli sozler, herfler, simvollar, reqemlerdir. Onda da [SLUG] deye yaradasiyiq qovluq adini.
