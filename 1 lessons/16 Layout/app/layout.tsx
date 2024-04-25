@@ -20,6 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         
+        {/* 1) header ve footer component-lerini bayaqa PAGE.TSX faylina elave etmisdik. Yəni bayaq ANA SEHIFE de sadece gorurduk ve diger sehifelere kecid etdikde silinirdi.
+        Eger butun sehifelerde eyni component-lerin tekrarlanmasini isteyirikse onda tekrarlanmasini istediyimiz hisseleri LAYOUT.TSX faylina elave etmek lazimdir. */}
         <Header/>
 
         {children}
