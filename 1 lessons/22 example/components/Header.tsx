@@ -19,6 +19,7 @@ const Header = () => {
             <p><Link className={`p-3 ${pathname === '/contact' ? "underline" : ""}`}   href="/contact"  >   Contact   </Link></p>
 
 
+{/* 1) auth qovlugu icinde login yaratdiq. */}
             <button className='p-3 bg-cyan-800 hover:bg-cyan-950 text-white rounded-lg' type="button" onClick={() => router.push('auth/login')}>Login</button>
         </div>
     </div>

@@ -30,3 +30,9 @@ const layout = ({children}:layoutProps) => {
 }
 
 export default layout
+
+
+// 1) About sehifesine kecid etdikde hemin sehife icinde statik qalacaq kontent movcud olarsa, onda hemin about sehifene mexsus LAYPUT yaratmaq mumkundur.
+
+
+// 2) About icinde Statik qalacaq kontent LAYOUT icinde yazilir. Deyisecek kontent PAGE icinde. 
