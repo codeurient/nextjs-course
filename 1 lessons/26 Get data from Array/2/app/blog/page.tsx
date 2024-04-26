@@ -14,8 +14,10 @@ const BlogPage = () => {
       <div><h1>Blog yazilari</h1></div>
 
       <div>
+        {/* 1)  */}
         {blogPosts.map(post => (
-          <BlogComponents id={post.id} key={post.id} description={post.content} title={post.title}></BlogComponents>
+          
+          <BlogComponents key={post.id} description={post.content} title={post.title}></BlogComponents>
 
         ))}
       </div>

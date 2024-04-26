@@ -18,6 +18,16 @@ export default function Home() {
 
       <LoginButton fullWidth type="submit" onClick={() => router.push('auth/login')}>Click me here</LoginButton>
       
+      {/* 
+      
+          1) https://ui.shadcn.com/docs/installation/next
+          2) npx shadcn-ui@latest init                             - yuklemek ucun saytda installation bolmesine kecid ederek gosterilen kamandani terminalda yaziriq.
+          3) npx shadcn-ui@latest add button                       - hansi componenti isteyirikse onun ustune klikleyerek lazimli kodu terminalda yaziriq.
+          4) Bu kamandani yazdiqda zonra COMPONENTS qovlugunda UI adinda bir qovluq ve icinde hemin BUTTON compoment-ini yerlesdirecek
+          5) Sonra asagida oldugu kimi component-in adini yazaraq duymeni elde edirik.
+          6) components/ui/button.tsx    bu fayla daxil olduqda goreceyik ki hemin button ucun ettbiq ede bileceyimiz ferqli stiller movcuddur. Eger lazim olarsa oz stilimizde elave ede bilerik.
+      */}
+
       <Button variant={'myButton'}>Button</Button>
 
     </>

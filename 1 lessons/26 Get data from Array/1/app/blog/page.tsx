@@ -1,4 +1,3 @@
-import BlogComponents from '@/components/BlogComponents'
 import React from 'react'
 
 const blogPosts = [
@@ -14,9 +13,12 @@ const BlogPage = () => {
       <div><h1>Blog yazilari</h1></div>
 
       <div>
+        {/* 1)  */}
         {blogPosts.map(post => (
-          <BlogComponents id={post.id} key={post.id} description={post.content} title={post.title}></BlogComponents>
-
+          <div key={post.id}>
+            <h2>{post.title}</h2>
+            <h2>{post.content}</h2>
+          </div>
         ))}
       </div>
     </div>

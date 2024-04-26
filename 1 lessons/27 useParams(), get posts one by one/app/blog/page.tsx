@@ -15,6 +15,7 @@ const BlogPage = () => {
 
       <div>
         {blogPosts.map(post => (
+          // 1) ID -nide props edirik BlogComponents.tsx faylina.
           <BlogComponents id={post.id} key={post.id} description={post.content} title={post.title}></BlogComponents>
 
         ))}
