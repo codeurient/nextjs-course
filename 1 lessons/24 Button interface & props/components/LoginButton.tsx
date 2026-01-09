@@ -2,7 +2,7 @@ import React from 'react'
 
 // 1) LoginButtonProps adinda interface yaradiriq. 
 interface LoginButtonProps{
-    type?: "button" | "submit" | "reser" | undefined;       // 2) Duyme ferqli tiplerde oa biler.
+    type?: "button" | "submit" | "reset" | undefined;       // 2) Duyme ferqli tiplerde oa biler.
     fullWidth?: boolean;                                    // 3) duyme kicikmi balacami olacaq teyin etmek ucun fullWidth xassesinden istifade edirik.
     children?: React.ReactNode;                             // 4) Duymenin ferqli adlari olacaq
     onClick?: () => void;                                   // 5) Duyme kliklendikde bir funksiya qebul edecek ve void ise hemin funksiyanin deyer return etmiyeceyini bildirir.

@@ -10,4 +10,4 @@ export default forget
 
 
 // 1) ADMIN qovlugunu () yumru morterize icine qoyaraq diger ALT sehifeleri bir Basliq altinda qruplasdirmaq mumkundur.
-// URL yerinde /admin yadiqda yox /login yaxud /forgetpassword yazdiqda sehifeler acilacaqdir.
+// URL yerinde /admin yazdiqda yox /login yaxud /forgetpassword yazdiqda sehifeler acilacaqdir.
